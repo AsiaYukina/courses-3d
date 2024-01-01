@@ -1,0 +1,404 @@
+@media (max-width: 992px){
+    .courses__background {
+    min-height: 376px; 
+    }
+}
+
+
+@media (max-width: 792px){
+    .hero{
+        padding-bottom: 135px;
+    }
+    
+    .hero__backgraund-min{
+        width: 37%;
+        top: 104px;
+        left: 16px;
+    }
+
+    .hero__backgraund-max{
+        width: 87%;
+        right: 14px;
+        top: 111px;
+    }
+
+    .hero__title{
+        font-size: 50px;
+        line-height: 100%;
+        margin-bottom: 16px;
+    }
+
+    .hero__descr{
+        width: 100%;
+    }
+
+    .about-us{
+        padding-bottom: 76px;
+    }
+
+    .about-us__background{
+        width: 100%;
+    }
+
+    .about-us__title{
+        width: 80%;
+        margin-bottom: 16px;
+    }
+
+    .about-us__descr{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .about-us__caption{
+        padding-left: 0;
+        padding-top: 90px;
+        padding-bottom: 0;
+    }
+
+    .teachers{
+        padding-bottom: 27px;
+    }
+
+    .teachers__col{
+        margin-bottom: 23px;
+    }
+
+    .bcgr-1{
+        background-image: url(../img/courses-1-768.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .bcgr-2{
+        background-image: url(../img/courses-2-768.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .bcgr-3{
+        background-image: url(../img/courses-3-768.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .bcgr-4{
+        background-image: url(../img/courses-4-768.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    .courses__time{
+        right: 96px;
+        top: 9px;
+    }
+
+    .courses__hours{
+        right: 25px;
+        top: 12px;
+    }
+
+    .courses__btn{
+        padding: 20.5px 56px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0 15px;
+    }
+    .header__logo{
+        display: block;
+        text-align: center;
+        margin-bottom: 27px;
+    }
+
+    .nav__list{
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .nav__item{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero {
+        padding-bottom: 133px;
+    }
+
+    .hero__title {
+        margin-top: 64px;
+    }
+
+    .hero__descr{
+        width: 70%;
+    }
+
+    .hero__backgraund{
+        overflow: hidden;
+    }
+
+    .about-us {
+        padding-bottom: 56px;
+    }
+
+    .about-us__background {
+        width: 150px;
+        height: 134px;
+        margin-top: 0;
+    }
+
+    .teachers {
+        padding-bottom: 51px;
+    }
+
+    .courses{
+        padding-bottom: 78px;
+    }
+
+    .bcgr-1{
+        background-image: url(../img/courses-1-576.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .bcgr-2{
+        background-image: url(../img/courses-2-576.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .bcgr-3{
+        background-image: url(../img/courses-3-576.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+      .bcgr-4{
+        background-image: url(../img/courses-4-576.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    .courses__name {
+        line-height: 130%;
+    }
+
+    .courses__background {
+        min-height: 473px;
+    }
+
+    .courses__btn {
+        padding: 20.5px 48px;
+    }
+    
+}
+
+@media (max-width: 576px){
+    .courses__row {
+        margin-bottom: 0;
+    }
+
+    .courses__background {
+        min-height: 455px;
+        margin-bottom: 29px;
+    }
+}
+
+@media (max-width: 479px){
+
+    .descr{
+        font-size: 16px;
+    }
+
+    .title{
+        font-size: 20px;
+        line-height: 130%;
+    }
+
+    .header {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .header__logo{
+        margin-bottom: 20px;
+    }
+
+    .header__Wrapper{
+          /* Спрячем всё, что выходит за границы родителя */
+        overflow: hidden;
+    }
+
+    .header__Limiter{
+        width: 100%;
+        padding: 0;
+        flex-wrap: nowrap;
+        /* Зададим возможность горизонтальной прокрутки */
+        overflow-x: auto;
+        /* Для Сафари дополнительно зададим инерцию при прокрутке.
+        С инерцией меню будет «оттягиваться» при попытке прокрутить
+        его за его пределы. */
+        -webkit-overflow-scrolling: touch;
+         /* Добавим дополнительный нижнее поле
+        элементу, в котором прокручивается меню */
+        padding-bottom: 20px;
+          /* С помощью отрицательного отступа
+        компенсируем «нарощенное» поле  */
+        margin-bottom: -20px;
+    }
+    .hero {
+        padding-bottom: 50px;
+    }
+
+    .hero__title{
+        font-size: 30px;
+        line-height: 100%; 
+        margin-top: 36px;
+        margin-bottom: 4.5px;
+    }
+
+    .hero__descr{
+        width: 100%;
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 45px;
+    }
+
+    .hero__button{
+        font-size: 16px;
+        padding: 20.5px 53.5px;
+    }
+
+   
+
+    .nav__item:not(:last-child) { 
+        margin-right: 56px; 
+    }
+
+    .about-us__descr{
+        width: 80%;
+    }
+
+    .about-us__caption{
+        width: 90%;
+    }
+
+    .teachers__title{
+        width: 90%;
+    }
+
+    .teachers__deskr{
+        width: 70%;
+    }
+
+    .courses__col{
+        width: 90%;
+    }
+
+    .bcgr-1, 
+    .bcgr-2,
+    .bcgr-3,
+    .bcgr-4{
+        background-size: cover;
+    }
+        
+}
+
+@media (max-width: 320px){
+
+
+    .about-us__img{
+        overflow: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    .about-us{
+        padding-top: 48px;
+        padding-bottom: 21px;
+    }
+
+    .about-us__title{
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+    .about-us__descr{
+        width: 100%;
+        margin-bottom: 23px;
+    }
+
+    .about-us__caption {
+        width: 100%;
+        padding-left: 110px;
+        padding-top: 3px;
+        padding-bottom: 30px;
+    }
+
+    .teachers {
+        padding-top: 44px;
+    }
+
+    .teachers__deskr{
+        width: 100%;
+    }
+
+    .courses__col{
+        width: 100%;
+    }
+
+    .courses {
+        padding-top: 44px;
+        padding-bottom: 23px;
+    }
+
+    .courses__title{
+        margin-bottom: 25px;
+    }
+
+    .courses__btn{
+        padding: 20.5px 55.5px;
+    }
+
+    .courses__background {
+        min-height: 180px;
+
+    }
+
+    .bcgr-1{
+        background-image: url(../img/courses-1-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      
+    .bcgr-2{
+        background-image: url(../img/courses-2-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      
+    .bcgr-3{
+        background-image: url(../img/courses-3-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+      
+    .bcgr-4{
+        background-image: url(../img/courses-4-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .teachers {
+        padding-bottom: 25px;
+    }
+    
+    .teachers__title{
+        width: 100%;
+    }
+
+
+}
+
